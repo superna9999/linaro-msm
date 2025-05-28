@@ -42,7 +42,6 @@ storage:
   items:
     nand:
       name: NAND
-      intop: True
     sata:
       name: SATA
     ufs:
