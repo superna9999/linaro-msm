@@ -219,10 +219,6 @@ dma:
       name: GPI
     bam:
       name: BAM
-hwspinlocks:
-  name: HW Spinlocks
-msgbox:
-  name: MsgBox
 qfprom:
   name: QFPROM
 powerthermal:

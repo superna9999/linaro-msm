@@ -50,7 +50,6 @@ status-display-lvds: N/A
 status-dma-bam: 6.0
 status-dma-gpi: N/A
 status-gnss: N/A
-status-hwspinlocks: 5.19
 status-i2c: N/A
 status-interconnects: 5.19
 status-pcie: 6.5
