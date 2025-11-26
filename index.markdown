@@ -45,4 +45,4 @@ layout: home
 </table>
 </div>
 
-<p>Help us updating the table by forking on <a href="https://github.com/Linaro/msm">GitHub</a>.</p>
+<p>Help us updating the table by forking on <a href="https://github.com/linux-msm/mainline-status">GitHub</a>.</p>
