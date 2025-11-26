@@ -33,7 +33,7 @@
   bundle exec jekyll serve
   ```
 
-  Now you can open [localhost:4000](http://127.0.0.1:4000/msm/) with your Web
+  Now you can open [localhost:4000](http://127.0.0.1:4000/mainline-status/) with your Web
   browser. Jekyll will automatically regenerate the pages if any of the source
   files changes.
 
