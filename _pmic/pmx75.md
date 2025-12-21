@@ -1,5 +1,5 @@
 ---
-name: PMK8550
+name: PMX75
 layout: pmic
 pmic-adc-gpadc: N/A
 pmic-adc-iadc: N/A
@@ -14,21 +14,21 @@ pmic-coincell: N/A
 pmic-eusb2repeat: N/A
 pmic-flash: N/A
 pmic-fuelgauge: N/A
-pmic-gpio: 6.3
+pmic-gpio: 6.6
 pmic-haptics: N/A
 pmic-keypad: N/A
 pmic-labib: N/A
 pmic-lpg: N/A
 pmic-mpp: N/A
-pmic-pon: 6.3
+pmic-pon: N/A
 pmic-qnovo: N/A
 pmic-regulators: N/A
 pmic-resin: N
-pmic-rtc: 6.3
+pmic-rtc: N/A
 pmic-tempalarm: N/A
 pmic-usb-extcon: N/A
 pmic-usb-typecpd: N/A
 pmic-watchdog: N/A
 pmic-wled: N/A
 ---
-This PMIC is usually used with the [SM8550](../soc/sm8550) and [SDX75](../soc/sdx75) platforms.
+This PMIC is usually used with the [SDX75](../soc/sdx75) platform.
