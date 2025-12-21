@@ -15,9 +15,25 @@ layout: home
 <tbody>
 {% for d in site.soc %}
 <tr>
-<td><a href="{{d.url | absolute_url}}">{{d.name}}</a></td>
+<td><a href="{{d.url | absolute_url}}">{{d.name}}</a>
+{%- if d.skus %}
+	<span class="tooltip">(*)<span class="tooltiptext">
+    {%- for sku in d.skus -%}
+    {{sku}}{% unless forloop.last %}, {% endunless %}
+    {%- endfor -%}
+    </span></span>
+{%- endif -%}
+</td>
 {% include index_soc_status.liquid %}
-<td><a href="{{d.url | absolute_url}}">{{d.name}}</a></td>
+<td><a href="{{d.url | absolute_url}}">{{d.name}}</a>
+{%- if d.skus %}
+	<span class="tooltip">(*)<span class="tooltiptext">
+    {%- for sku in d.skus -%}
+    {{sku}}{% unless forloop.last %}, {% endunless %}
+    {%- endfor -%}
+    </span></span>
+{%- endif -%}
+</td>
 </tr>
 {% endfor %}
 </tbody>

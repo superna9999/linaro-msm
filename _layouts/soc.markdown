@@ -4,6 +4,14 @@ layout: default
 <h1>{{ page.name }}</h1>
 <div class="soc">
 <div class="content">
+{%- if page.skus %}
+<p>SKUs</p>
+<ul>
+{%- for sku in page.skus %}
+<li>{{sku}}</li>
+{%- endfor %}
+</ul>
+{%- endif %}
 {{ content }}
 </div>
 
