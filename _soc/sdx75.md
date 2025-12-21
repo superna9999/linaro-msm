@@ -74,7 +74,7 @@ status-spmi: 6.6
 status-sram-imem: WIP
 status-sram-rpmh-stats: N
 status-storage-emmcice: N/A
-status-storage-nand: WIP
+status-storage-nand: 6.16
 status-storage-sata: N/A
 status-storage-sdcc: 6.11
 status-storage-ufs: N/A
