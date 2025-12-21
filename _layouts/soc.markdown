@@ -4,6 +4,9 @@ layout: default
 <h1>{{ page.name }}</h1>
 <div class="soc">
 <div class="content">
+{%- if page.fullname %}
+<p>{{page.fullname}}</p>
+{%- endif %}
 {%- if page.skus %}
 <p>SKUs</p>
 <ul>

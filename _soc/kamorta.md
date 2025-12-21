@@ -1,6 +1,7 @@
 ---
 name: Kamorta
 skus: [SM6115, QRB4210]
+fullname: Snapdragon 662
 layout: soc
 status-audio-adspaudio: N/A
 status-audio-adspelite: N/A
@@ -90,7 +91,5 @@ status-usb-usbotg: 6.9
 status-video-venus: N/A
 status-watchdog: 6.3
 ---
-Snapdragon SM6115, QRB4210
-
 Tested Boards:
 - Qualcomm Robotics RB2 platform

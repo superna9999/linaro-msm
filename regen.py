@@ -138,6 +138,7 @@ def handle_soc_pmic(data, kind, prefix, is_soc):
         out.write('name: ???\n')
         if is_soc:
             out.write('skus: [??, ??]\n')
+            out.write('fullname: ??\n')
         out.write('layout: %s\n' % kind)
         out.write(': N/A\n'.join(sorted(generate_template(data, prefix, is_intop))))
         out.write(': N/A\n')

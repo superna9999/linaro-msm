@@ -1,6 +1,7 @@
 ---
 name: Talos
 skus: [SM6150, QCS615]
+fullname: Snapdragon 615
 layout: soc
 status-audio-adspaudio:
 status-audio-adspelite:

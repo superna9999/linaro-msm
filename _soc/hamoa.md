@@ -1,6 +1,7 @@
 ---
 name: Hamoa
 skus: [X1E80100, X1E78100, X1E001DE]
+fullname: Snapdragon X Elite
 layout: soc
 status-audio-adspaudio: 6.11
 status-audio-adspelite:
@@ -92,8 +93,6 @@ status-video-venus: N
 status-watchdog: 6.15
 pmic: pm8550, pm8550ve, pmc8380, smb2360
 ---
-Snapdragon X Elite
-
 Tested Boards:
 - X1E80100-CRD
 - X1E80100-QCP

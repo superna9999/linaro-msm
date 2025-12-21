@@ -90,7 +90,5 @@ status-video-venus: N/A
 status-watchdog: WIP
 pmic: pm7550ba, pmk8550, pmx75
 ---
-SDX75
-
 Tested Boards:
 - SDX75-IDP
