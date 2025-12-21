@@ -93,7 +93,7 @@ def generate_template(data, prefix, check_fn):
         if 'items' in v:
             yield from generate_template(v['items'], prefix + '-' + k, check_fn)
 
-def handle_soc_pmic(data, kind, prefix):
+def handle_soc_pmic(data, kind, prefix, is_soc):
     has_nested = False
     for (k, v) in data.items():
         if 'items' in v:
@@ -136,6 +136,9 @@ def handle_soc_pmic(data, kind, prefix):
     with open('_%s.template' % kind, 'w') as out:
         out.write('---\n')
         out.write('name: ???\n')
+        if is_soc:
+            out.write('skus: [??, ??]\n')
+            out.write('fullname: ??\n')
         out.write('layout: %s\n' % kind)
         out.write(': N/A\n'.join(sorted(generate_template(data, prefix, is_intop))))
         out.write(': N/A\n')
@@ -143,9 +146,9 @@ def handle_soc_pmic(data, kind, prefix):
 
 with open('soc.yaml', "r") as file:
     data = load(file, Loader=Loader)
-    handle_soc_pmic(data, 'soc', 'status')
+    handle_soc_pmic(data, 'soc', 'status', True)
 
 with open('pmic.yaml', "r") as file:
     data = load(file, Loader=Loader)
 
-    handle_soc_pmic(data, 'pmic', 'pmic')
+    handle_soc_pmic(data, 'pmic', 'pmic', False)

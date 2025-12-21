@@ -1,5 +1,6 @@
 ---
-name: SA8775P
+name: Lemans
+skus: [SA8775P, QCS9100, QCS9075]
 layout: soc
 status-audio-headset: N
 status-audio-analogcodec: N
@@ -9,6 +10,14 @@ status-audio-spdif: N
 status-audio-soundwire: N
 status-audio-lpasslpi: N
 status-audio-adspaudio: N
+status-camera: 6.18
+status-camera-csi: 6.18
+status-camera-datapath: 6.18
+status-camera-eva: N
+status-camera-i2c: 6.18
+status-camera-sfe: N
+status-camera-vfe: 6.18
+status-camera-vfelight: 6.18
 status-clock-gcc: 6.3
 status-clock-rpmhcc: 6.3
 status-connectivity-bluetooth: 6.13
@@ -60,7 +69,7 @@ status-sram-imem: 6.11
 status-sram-rpmh-stats: 6.8
 status-storage-nand: N/A
 status-storage-sata: N/A
-status-storage-sdcc: N/A
+status-storage-sdcc: 6.18
 status-storage-ufs: 6.5
 status-storage-ufsice: 6.7
 status-uart: 6.4

@@ -1,5 +1,6 @@
 ---
-name: QCS8300
+name: Monaco
+skus: [QCS8300, QCS8275]
 layout: soc
 status-audio-adspaudio:
 status-audio-adspelite:
@@ -71,9 +72,9 @@ status-remoteproc-mdsp: N/A
 status-remoteproc-sdsp: N/A
 status-smmu: 6.14
 status-spi:
-status-spmi: next-6.16
+status-spmi: 6.16
 status-sram-imem: 6.14
-status-sram-rpmh-stats: next-6.16
+status-sram-rpmh-stats: 6.16
 status-storage-emmcice:
 status-storage-nand:
 status-storage-sata:

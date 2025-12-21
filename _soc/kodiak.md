@@ -1,7 +1,9 @@
 ---
-name: SC7280
+name: Kodiak
+skus: [SC7280, SM7325, QCM6490, QCS6490]
+fullname: Snapdragon 7c+ Gen 3 (aka 778G)
 layout: soc
-status-audio-adspaudio:
+status-audio-adspaudio: 6.18
 status-audio-adspelite:
 status-audio-analogcodec:
 status-audio-dmic: 6.1
@@ -91,13 +93,6 @@ status-video-venus: 5.17
 status-watchdog: 5.13
 pmic: pm7325, pm8350c, pmk8350, pmr735a
 ---
-# Snapdragon 7c+ Gen 3
-
-Also known as:
-
-* Snapdragon 778G (SM7325)
-* Snapdragon QCM6490
-
 Tested boards:
 
 * Qualcomm RB3 Gen 2

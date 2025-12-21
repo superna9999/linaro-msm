@@ -1,5 +1,7 @@
 ---
-name: QCS615
+name: Talos
+skus: [SM6150, QCS615]
+fullname: Snapdragon 615
 layout: soc
 status-audio-adspaudio:
 status-audio-adspelite:
@@ -28,19 +30,19 @@ status-connectivity-ethernet: WIP
 status-connectivity-wlan: WIP
 status-cpu-bwmon: 6.14
 status-cpu-cachetop: 6.14
-status-cpu-cpufreq: WIP
+status-cpu-cpufreq: 6.18
 status-cpu-cpuidle: 6.14
 status-cpu-ddrfreq:
 status-cpu-l3cache: 6.14
 status-cpu-llcc: 6.14
 status-cpu-smp: 6.14
-status-crypto-qcrypto: next-6.16
-status-crypto-rng: next-6.16
+status-crypto-qcrypto: 6.16
+status-crypto-rng: 6.16
 status-debug-coresight: 6.14
 status-debug-dcc:
 status-debug-eud:
 status-display-dp: WIP
-status-display-dsi: WIP
+status-display-dsi: 6.19
 status-display-hdmi: N/A
 status-display-hdmiaudio: N/A
 status-display-hdmicec: N/A
@@ -52,25 +54,25 @@ status-gnss: N/A
 status-i2c: 6.14
 status-interconnects: 6.14
 status-msgbox: 6.14
-status-pcie: WIP
+status-pcie: 6.18
 status-pinctrl: 6.14
 status-powerthermal-currentlimit: N/A
 status-powerthermal-lmh: N/A
 status-powerthermal-mpm: N/A
 status-powerthermal-pdc: 6.14
 status-powerthermal-spm: N/A
-status-powerthermal-tsens: N/A
+status-powerthermal-tsens: 6.18
 status-qfprom: 6.14
-status-remoteproc: WIP
-status-remoteproc-adsp: WIP
-status-remoteproc-cdsp: WIP
-status-remoteproc-fastrpc: WIP
+status-remoteproc: 6.17
+status-remoteproc-adsp: 6.17
+status-remoteproc-cdsp: 6.17
+status-remoteproc-fastrpc: 6.18
 status-remoteproc-mdsp: N/A
-status-remoteproc-sdsp: WIP
+status-remoteproc-sdsp: N/A
 status-smmu: 6.14
 status-spi: 6.14
 status-spmi: 6.14
-status-sram-imem: N/A
+status-sram-imem: 6.17
 status-sram-rpmh-stats: 6.14
 status-storage-emmcice: N/A
 status-storage-nand: N/A
@@ -85,11 +87,9 @@ status-usb-periphmode: WIP
 status-usb-typec: N/A
 status-usb-usb4: N/A
 status-usb-usbotg: WIP
-status-video-venus: WIP
+status-video-venus: 6.18
 status-watchdog: 6.14
 pmic: pm8150
 ---
-QCS615
-
 Tested Boards:
 - QCS615-RIDE
