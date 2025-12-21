@@ -1,5 +1,6 @@
 ---
-name: SC7280
+name: Kodiak
+skus: [SC7280, QCM6490, QCS6490]
 layout: soc
 status-audio-adspaudio: 6.18
 status-audio-adspelite:

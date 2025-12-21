@@ -1,5 +1,6 @@
 ---
-name: QCS8300
+name: Monaco
+skus: [QCS8300, QCS8275]
 layout: soc
 status-audio-adspaudio:
 status-audio-adspelite:

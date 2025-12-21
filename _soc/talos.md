@@ -1,5 +1,6 @@
 ---
-name: QCS615
+name: Talos
+skus: [SM6150, QCS615]
 layout: soc
 status-audio-adspaudio:
 status-audio-adspelite:
@@ -89,7 +90,5 @@ status-video-venus: 6.18
 status-watchdog: 6.14
 pmic: pm8150
 ---
-QCS615
-
 Tested Boards:
 - QCS615-RIDE

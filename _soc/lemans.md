@@ -1,5 +1,6 @@
 ---
-name: SA8775P
+name: Lemans
+skus: [SA8775P, QCS9100, QCS9075]
 layout: soc
 status-audio-headset: N
 status-audio-analogcodec: N

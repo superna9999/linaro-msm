@@ -1,5 +1,6 @@
 ---
-name: QCM2290 / QRB2210
+name: Agatti
+skus: [QCM2290, QRB2210]
 layout: soc
 status-audio-adspaudio: 6.17
 status-audio-adspelite: N/A
@@ -92,7 +93,5 @@ status-video-venus: 6.18
 status-watchdog: 6.4
 pmic: pm4125
 ---
-QCM2290, QRB2210
-
 Tested boards:
 - Qualcomm Robotics RB1 platform

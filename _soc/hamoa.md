@@ -1,5 +1,6 @@
 ---
-name: X1E80100
+name: Hamoa
+skus: [X1E80100, X1E78100, X1E001DE]
 layout: soc
 status-audio-adspaudio: 6.11
 status-audio-adspelite:

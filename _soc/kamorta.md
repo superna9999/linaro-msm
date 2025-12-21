@@ -1,5 +1,6 @@
 ---
-name: SM6115 / QRB4210
+name: Kamorta
+skus: [SM6115, QRB4210]
 layout: soc
 status-audio-adspaudio: N/A
 status-audio-adspelite: N/A
